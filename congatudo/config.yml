@@ -25,7 +25,7 @@ ports_description:
   4030/tcp: "conga map port"
   4050/tcp: "conga rtc port"
 map:
-  - homeassistant_config:rw
+  - addon_config:rw
 ingress: true
 ingress_port: 8080
 panel_icon: mdi:robot-vacuum
